@@ -13,13 +13,9 @@ type Props = {
 export function Products({ data, brand }: Props) {
   const { navigate } = useNavigation();
 
-  const getBrandCount = (brand: string) => {
-    return PRODUCTS.filter(product => product.brand === brand).length;
-  };
-  
   return (
     <VStack flex={1}>
-      <HeaderList title={brand} counter={getBrandCount(brand)} />
+      <HeaderList title={brand} counter={PRODUCTS.length} />
 
       <FlatList
         data={data}

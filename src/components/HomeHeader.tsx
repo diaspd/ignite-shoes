@@ -7,7 +7,7 @@ export function HomeHeader() {
   return (
     <HStack pt={16} pb={5} px={8} bg="gray.600" alignItems="center">
       <Avatar
-        source={{ uri: 'https://github.com/diaspd.png' }}
+        source={userPhotoDefault}
         size={16}
         mr={4}
         borderWidth={2}
@@ -20,7 +20,7 @@ export function HomeHeader() {
         </Text>
 
         <Heading color="gray.100" fontSize="md" fontFamily="heading">
-          Pedro Dias
+          Rodrigo Gonçalves
         </Heading>
       </VStack>
 
