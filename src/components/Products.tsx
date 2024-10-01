@@ -3,7 +3,7 @@ import { FlatList, VStack } from 'native-base';
 import { HeaderList } from './HeaderList';
 
 import { ProductCard, ProductCardProps } from './ProductCard';
-import {PRODUCTS} from '../data/products';
+import { PRODUCTS } from '../data/products';
 
 type Props = {
   brand: string;
@@ -13,19 +13,23 @@ type Props = {
 export function Products({ data, brand }: Props) {
   const { navigate } = useNavigation();
 
+  const getBrandCount = (brand: string) => {
+    return PRODUCTS.filter(product => product.brand === brand).length;
+  };
+
   return (
     <VStack flex={1}>
-      <HeaderList title={brand} counter={PRODUCTS.length} />
+      <HeaderList title={brand} counter={getBrandCount(brand)} />
 
       <FlatList
         data={data}
         keyExtractor={item => item.id}
         renderItem={({ item }) => (
-                <ProductCard 
-                  data={item}
-                  onPress={() => navigate('details', { productId: item.id })} 
-                />
-              )}
+          <ProductCard 
+            data={item}
+            onPress={() => navigate('details', { productId: item.id })} 
+          />
+        )}
         numColumns={2}
         _contentContainerStyle={{ alignItems: 'center', paddingBottom: 20 }}
         showsVerticalScrollIndicator={false}

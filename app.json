@@ -18,7 +18,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pedro.igniteshoesapp"
     },
     "android": {
       "adaptiveIcon": {
@@ -28,6 +29,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "onesignal-expo-plugin", 
+        {
+          "mode": "development"
+        }
+      ]
+    ]
   }
 }

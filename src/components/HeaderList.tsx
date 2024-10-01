@@ -7,7 +7,7 @@ type Props = {
 
 export function HeaderList({ title, counter }: Props) {
   return (
-    <HStack w="full" justifyContent="space-between" alignItems="center" px={8} mt={6}>
+    <HStack w="full" justifyContent="space-between" alignItems="center" px={9} mt={6}>
       <Heading fontFamily="heading" color="gray.200" fontSize="md">
         {title}
       </Heading>
