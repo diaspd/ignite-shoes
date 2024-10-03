@@ -13,6 +13,7 @@ import { CartContextProvider } from './src/contexts/CartContext';
 import { ONESIGNAL_ANDROID_FCM_ID } from '@env';
 
 OneSignal.initialize(ONESIGNAL_ANDROID_FCM_ID)
+OneSignal.Notifications.requestPermission(true)
 
 export default function App() {
   const [fontsLoaded] = useFonts({ Roboto_400Regular, Roboto_700Bold });
