@@ -1,5 +1,5 @@
 {
-  "name": "igniteshoesapp",
+  "name": "igniteshoes",
   "version": "1.0.0",
   "scripts": {
     "start": "expo start --dev-client",
@@ -16,6 +16,7 @@
     "expo-font": "~11.0.1",
     "expo-splash-screen": "~0.17.5",
     "expo-status-bar": "~1.4.2",
+    "igniteshoes": "file:",
     "igniteshoesapp": "file:",
     "native-base": "^3.4.22",
     "onesignal-expo-plugin": "2.0.2",
