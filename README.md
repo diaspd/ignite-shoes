@@ -22,6 +22,9 @@ or
 </br>
 ``npm start``
 
+## 📄 Set up native configs
+[Native Config](https://react-native.rocketseat.dev/)
+
 ## 📝 Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
