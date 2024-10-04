@@ -10,7 +10,20 @@
 
 ## 💻 Projeto
 
-# Ignite Shoes App
+## Ignite Shoes App
+
+## 🚀 Start
+``npx expo run:android
+`` 
+or
+</br>
+``npx expo start --dev-client``
+or
+</br>
+``npm start``
+
+## 📄 Set up native configs
+[Native Config](https://react-native.rocketseat.dev/)
 
 ## 📝 Licença
 
