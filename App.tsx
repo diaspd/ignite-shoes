@@ -12,7 +12,7 @@ import { CartContextProvider } from './src/contexts/CartContext';
 
 import { ONESIGNAL_ANDROID_FCM_ID } from '@env';
 import { ONESIGNAL_IOS_APNS_ID } from '@env';
-import { tagUserEmailCreate } from './src/notifications/notificationsTags';
+import { tagUserEmailDelete } from './src/notifications/notificationsTags';
 
 const oneSignalAppId = Platform.OS === "ios" ? 
 ONESIGNAL_IOS_APNS_ID : ONESIGNAL_ANDROID_FCM_ID
@@ -23,7 +23,7 @@ OneSignal.Notifications.requestPermission(true)
 export default function App() {
   const [fontsLoaded] = useFonts({ Roboto_400Regular, Roboto_700Bold });
 
-  tagUserEmailCreate("pedro@email.com")
+  tagUserEmailDelete()
 
   return (
     <NativeBaseProvider theme={THEME}>
