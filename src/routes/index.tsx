@@ -30,7 +30,7 @@ export function Routes() {
     <NavigationContainer theme={theme}>
       <AppRoutes />
 
-      {notification?.title && <Notification title={notification?.title} onClose={() => setNotification(undefined)}/>}
+      {notification?.title && <Notification data={notification} onClose={() => setNotification(undefined)}/>}
     </NavigationContainer>
   );
 }
