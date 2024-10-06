@@ -15,6 +15,7 @@
     "expo": "~47.0.14",
     "expo-dev-client": "~2.0.1",
     "expo-font": "~11.0.1",
+    "expo-linking": "^6.3.1",
     "expo-splash-screen": "~0.17.5",
     "expo-status-bar": "~1.4.2",
     "igniteshoes": "file:",
