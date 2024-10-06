@@ -14,8 +14,9 @@ export function Notification({ title, onClose }: Props) {
       pt={12}
       justifyContent="space-between" 
       alignItems="center" 
-      bgColor="gray.200"
+      bgColor="coolGray.200"
       position="absolute"
+      roundedBottom={8}
       top={0}
     >
         <Icon as={Ionicons} name="notifications-outline" size={5} color="black" mr={2}/>
