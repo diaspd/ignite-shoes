@@ -1,51 +1,76 @@
-<p align="center">
-  <img alt="Rocketseat Education" src="https://avatars.githubusercontent.com/u/69590972?s=200&v=4" width="100px" />
-</p>
+<h1 align="center">
+   Ignite Shoes
+</h1> 
 
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=Rocketseat&message=Education&color=8257e5&labelColor=202024" alt="Rocketseat Project" />
-  <a href="LICENSE"><img  src="https://img.shields.io/static/v1?label=License&message=MIT&color=8257e5&labelColor=202024" alt="License"></a>
-</p>
+<div align="center">
+  <b>
+    <a href="#-Technologies"><b>Technologies</b></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-Project"><b>Project</b></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-Layout"><b>Layout</b></a>&nbsp;&nbsp;&nbsp;
+  </b>  
+</div>
 
+---
 
-## 💻 Projeto
+<div align="center">
+<!--  <img alt="project img" title="project img" src="./mobile/assets/templates/img.svg" width="72%" />
+ <img alt="project gif" title="project gif" src="./mobile/assets/templates/gif.gif" width="24%" />   -->
+</div> 
 
-## Ignite Shoes App
-
-## 🚀 Start
-``npx expo run:android
-`` 
-or
 </br>
-``npx expo start --dev-client``
-or
+
+## 🚀 Getting started
+
+Clone the project and access the folder.
+
+```bash
+# Clone the project
+$ git clone https://github.com/diaspd/
+```
+
+## Setting the app
+
+```bash
+$ npm install
+$ npx expo start --dev-client
+```
+
 </br>
-``npm start``
+
+`Don't forget to change the env.file`
+
+</br>
+
+## 💻 Technologies
+
+This project was developed with the following technologies:
+<b>
+- React Native
+- Type Script
+- Expo
+- Native Base
+- One Signal
+- Firebase
+</b>
+
+</br>
+
+## 📄 Project
+💰 .
+
+<br></br>
+
 
 ## 📄 Set up native configs
 [Native Config](https://react-native.rocketseat.dev/)
 
+</br>
+
+Made with ♥ by Pedro Dias. 👋 Follow me on social media! </br>
+
+If you can give a little star, I appreciate it 🤩
+
+
 ## 📝 Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-<p align="center">
-  Feito com 💜 by Rocketseat
-</p>
-
-
-<!--START_SECTION:footer-->
-
-<br />
-<br />
-
-<p align="center">
-  <a href="https://discord.gg/rocketseat" target="_blank">
-    <img align="center" src="https://storage.googleapis.com/golden-wind/comunidade/rodape.svg" alt="banner"/>
-  </a>
-</p>
-
-<!--END_SECTION:footer-->
-
