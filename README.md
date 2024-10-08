@@ -37,7 +37,7 @@ $ npx expo start --dev-client
 
 </br>
 
-`Don't forget to change the env.file`
+`Don't forget to change the "env.exaple" file`
 
 </br>
 
@@ -51,6 +51,7 @@ This project was developed with the following technologies:
 - Native Base
 - One Signal
 - Firebase
+
 </b>
 
 </br>
