@@ -57,7 +57,7 @@ This project was developed with the following technologies:
 </br>
 
 ## 📄 Project
-💰 .
+💰 A project made for you receive notification and by deeplink open promo products or just redirect user.
 
 <br></br>
 
