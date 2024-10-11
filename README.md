@@ -28,13 +28,17 @@ Clone the project and access the folder.
 $ git clone https://github.com/diaspd/ignite-shoes.git
 ```
 
-## Setting the app
+## Setting and running the app
 
 ```bash
 $ npm install
 $ npx expo start --dev-client
 ```
-
+or 
+```
+$ npx expo run:android
+$ npx expo run:ios 
+````
 </br>
 
 `Don't forget to change the "env.exaple" file`
