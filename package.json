@@ -1,5 +1,6 @@
 {
   "name": "igniteshoes",
+  "author": "pedro_dias",
   "version": "1.0.0",
   "scripts": {
     "start": "expo start --dev-client",
